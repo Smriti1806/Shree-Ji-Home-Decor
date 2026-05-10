@@ -1,0 +1,2 @@
+ALTER TABLE public.products ALTER COLUMN slug DROP NOT NULL;
+ALTER TABLE public.categories ALTER COLUMN slug DROP NOT NULL;
